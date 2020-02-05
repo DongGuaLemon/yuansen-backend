@@ -5,7 +5,6 @@ module.exports = (router) => {
             console.log(response)
             res.json({message:'OK',data:response})
         })
-        
     })
     router.post('/addquestion',function(req,res,next){
         let body=req.body;

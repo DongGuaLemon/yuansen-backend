@@ -6,7 +6,6 @@ var connection = mysql.createConnection({
   password : 'root',
   database : 'yuansen'
 });
-
 connection.connect();
 module.exports = {
      displayQA:(response)=>{

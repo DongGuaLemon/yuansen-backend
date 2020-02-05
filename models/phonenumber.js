@@ -5,10 +5,7 @@ var connection = mysql.createConnection({
   user     : 'root',
   password : 'root',
   database : 'yuansen'
-});
-
-connection.connect();
-
+});    
 module.exports = {
     addphone:(params,res)=>{
         return new Promise(function(resolve,reject){
